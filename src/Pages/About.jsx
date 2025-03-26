@@ -18,7 +18,7 @@ const About = () => {
         navigate('/'); // Redirect to Home
       };
   return (
-    <div className='bg-custom h-screen bg-cover'>
+    <div className="bg-[url('/About.jpeg')] h-[750px]bg-cover">
      <div className='flex text-center justify-around p-3 pr-[3px]'>
      <div className='text-yellow-50 font-serif font-bold text-3xl '>
         <h1 className='p-3 hover:shadow-md hover:shadow-gray-300 hover:rounded-lg'>

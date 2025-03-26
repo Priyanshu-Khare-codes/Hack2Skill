@@ -28,7 +28,7 @@ const Login = () => {
 
 
   return (
-    <div className='bg-hero bg-cover h-screen'>
+    <div className="bg-[url('/About.jpeg')] bg-cover h-screen">
       <div className='flex  place-content-center  '>
         <div className='bg-[#2d1f1fae] text-black w-[30%] h-[60vh] mt-28 p-5 rounded-lg shadow-inner shadow-slate-500 hover:shadow-lg hover:border-b-4 hover:border-b-slate-200 hover:shadow-slate-200 hover:cursor-pointer '>
                   <div className='flex justify-center'>

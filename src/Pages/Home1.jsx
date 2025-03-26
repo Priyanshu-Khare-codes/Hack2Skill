@@ -13,12 +13,12 @@ const Home1 = () => {
   }, []);
 
   const handleLogout = () => {
-    localStorage.removeItem('user'); // Remove user data
-    setUser(null); // Update state
-    navigate('/'); // Redirect to Home
+    localStorage.removeItem('user'); 
+    setUser(null); 
+    navigate('/');
   };
   return (
-    <div className='bg-image bg-cover h-screen'>
+    <div className="bg-[url('/Home.jpeg')] bg-cover h-screen">
      <div className='flex text-center justify-around p-3 pr-[3px]'>
      <div className='text-yellow-50 font-serif font-bold text-3xl '>
         <h1   className='p-3 hover:shadow-md hover:shadow-gray-300 hover:rounded-lg'>Gen Ai</h1>

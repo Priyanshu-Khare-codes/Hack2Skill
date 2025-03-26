@@ -200,9 +200,9 @@ const Data = () => {
     };
 
     return (
-        <div className='bg-custom bg-cover h-[800px]'>
+        <div className="bg-[url('/About.jpeg')] bg-cover h-[800px]">
             <div className='text-white flex pl-7 gap-2 '>
-                <img className='w-[50px] h-auto hover:scale-105 hover:cursor-pointer' src="https://s3-alpha-sig.figma.com/img/3053/29b0/8fd5b335738721719260d5c2e4970ec9?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=BwhX06Kzmg2Job-EYf0etBallany571SQpqgb0-4O-1CtyAanFk~1HLnsvEpTa6zNQ8ojhatpQdcBJzY3iH0zw~ObR9j48iCk1mEvKl4cQaEjA4b5kr5-DI3j3FltfOPsU0lQw~0e~rs-vgFMPhzuLpU873ACQI8uiiBD-PVF0s2y6yC7UBJzkr2FKIt~G7Oz6s6pK3vclZBNz2mgTADzh5eWtUtV9mN-UHLyTnM3y1y5Yu0SgISF2OsYYKL7ZxKvcT-CcptL0e~Iek9tADbKfO7honU8uStWiotkPCrSyz1HvMdoPuFXFbG8Bfx3Fn8cko9lxs1afAiKfdsCSK-dQ__ " alt="" /> 
+                <img className="w-[50px] z-20  h-auto hover:scale-105 hover:cursor-pointer" src="https://s3-alpha-sig.figma.com/img/3053/29b0/8fd5b335738721719260d5c2e4970ec9?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=BwhX06Kzmg2Job-EYf0etBallany571SQpqgb0-4O-1CtyAanFk~1HLnsvEpTa6zNQ8ojhatpQdcBJzY3iH0zw~ObR9j48iCk1mEvKl4cQaEjA4b5kr5-DI3j3FltfOPsU0lQw~0e~rs-vgFMPhzuLpU873ACQI8uiiBD-PVF0s2y6yC7UBJzkr2FKIt~G7Oz6s6pK3vclZBNz2mgTADzh5eWtUtV9mN-UHLyTnM3y1y5Yu0SgISF2OsYYKL7ZxKvcT-CcptL0e~Iek9tADbKfO7honU8uStWiotkPCrSyz1HvMdoPuFXFbG8Bfx3Fn8cko9lxs1afAiKfdsCSK-dQ__ " alt="" /> 
                 <h1 className='mt-1 shadow-md p-3 rounded-lg shadow-gray-100 hover:cursor-pointer hover:shadow-md hover:p-3 hover:rounded-lg hover:scale-105 hover:shadow-slate-300'> 
                 <Link to="/">Back to Home</Link></h1>
             </div>

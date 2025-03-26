@@ -37,7 +37,7 @@ const Signup = () => {
       navigate('/');
     };
   return (
-    <div className='bg-hero bg-cover min-h-screen'>
+    <div className="bg-[url('/About.jpeg')] bg-cover min-h-screen">
       <div className='flex place-content-center'>
         <div  className='bg-[#2d1f1fae] text-white w-[30%] h-[70vh] mt-28 rounded-lg text-center  shadow-inner shadow-slate-500 hover:shadow-lg hover:border-b-4 hover:border-b-slate-200 hover:shadow-slate-200 hover:cursor-pointer'>
            <div className='flex justify-center gap-3'>
