@@ -4,7 +4,7 @@ import PIL.Image
 import json
 
 # Initialize the client
-client = genai.Client(api_key="AIzaSyD7SeZ_nZVUW1-Uti8KzFWkgAMVkq5tT6E")
+client = genai.Client(api_key="")
 
 def flag_social(text="", image_path=None):
 
